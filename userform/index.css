@@ -1,0 +1,103 @@
+@import url("../Graphik/Graphik-Bold/style.css");
+@import url("../Graphik/Graphik-Medium/style.css");
+@import url("../Graphik/Graphik-Regular/style.css");
+@import url("../Graphik/Graphik-Light/style.css");
+
+
+
+body {
+  font-size: 2.5vh;
+}
+
+.popup-user {
+  font-family: 'Graphik';
+  font-style: normal;
+
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+
+  border: 1px solid #e3e3e3;
+}
+
+@media screen and (max-device-width: 477px) {
+  .popup {
+    width: 100%;
+  }
+}
+
+.popup-user-close {
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: 8%;
+  cursor: pointer;
+  background: #E8E8E8;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+}
+
+
+.heading-user {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-user-text {
+  margin-top: 4%;
+}
+
+
+.user-popup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form-label {
+  margin-left: 9%;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  font-weight: bold;
+}
+.user-form-input {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 2vh;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 0.5em;
+}
+
+.button-container {
+  display: flex;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.button-reg {
+  font-size: 2.25vh;
+  margin-top: 6%;
+  padding: 4% 6%;
+  border: none;
+  border-radius: 0.5em;
+
+  color: #fff;
+  background-color: #0caa5e;
+}
+
+.button-auth {
+  font-size: 2.25vh;
+  margin-top: 6%;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 0.5em;
+}
