@@ -6,7 +6,6 @@
 
 
 body {
-  font-size: 2.5vh;
   font-family: 'Graphik';
   font-style: normal;
 }
@@ -14,11 +13,13 @@ body {
 .popup {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 430px;
 
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 2%;
+  padding-bottom: 75px;
+
+  border: 1px solid black;
 }
 
 @media screen and (max-device-width: 477px) {
@@ -28,28 +29,24 @@ body {
 }
 
 .popup-close {
-  margin-top: 4%;
+  margin-top: 26px;
   margin-left: auto;
-  margin-right: 8%;
+  margin-right: 26px;
   cursor: pointer;
-  background: #E8E8E8;
-  border-radius: 50%;
-  width: 1em;
-  height: 1em;
-  text-align: center;
+ 
+  width: 15px;
+  height: 15px;
 }
 
 .popup-button-white {
-  width: 80%;
+  width: 344px;
+  height: 44px;
   text-transform: uppercase;
 
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-top: 2%;
-  padding-bottom: 2%;
   border: 1px solid #d6dfd6;
   border-radius: 0.5em;
 
@@ -57,14 +54,14 @@ body {
 }
 
 .popup-button-purple {
-  width: 80%;
+  width: 344px;
+  height: 44px;
   text-transform: uppercase;
-
+  
+  margin-top: 23px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-top: 2%;
-  padding-bottom: 2%;
   border: none;
   border-radius: 0.5em;
 
@@ -73,33 +70,39 @@ body {
 }
 
 .heading {
+  width: 316px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .heading-text {
-  margin-top: 4%;
+  font-size: 18px;
 }
 
 .hrule-container {
   display: flex;
-  width: 80%;
+  width: 344px;
   justify-content: space-around;
 
   margin-left: auto;
   margin-right: auto;
-
-  padding-top: 4%;
-  padding-bottom: 4%;
+  
+  padding-top: 45px;
+  padding-bottom: 37px;
 }
 
 .hrule {
-  width: 30%;
+  width: 115px;
+  border: none;
+  border-top: 1px solid #3C3C3C;
+  ;
 }
 
 .hrule-full {
-  width: 82%;
-  margin-top: 8%;
+  width: 344px;
+  border: none;
+  border-top: 1px solid #3C3C3C;
+  ;
 }
 
 .popup-form {
@@ -111,9 +114,13 @@ body {
   margin-left: 9%;
 }
 .form-input {
-  width: 80%;
+  width: 343px;
+  height: 44px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 15px;
+  padding-left: 14px;
+  
 }
 
 .button-container {
@@ -137,12 +144,6 @@ body {
   font-weight: bold;
 }
 
-.form-input {
-  font-size: 2.25vh;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 0.5em;
-}
 
 .button-enter {
   font-size: 2.25vh;
